@@ -30,9 +30,9 @@ public class BroadcastFragment extends Fragment {
     private Button config;
     public static  String ICE_HOST = "192.168.137.1" ;
     public static  int    ICE_PORT = 8000 ;
-    public static  String ICE_MOUNT ="/icecast.ogg";
+    public static  String ICE_MOUNT ="/abdo.ogg";
     public static  String ICE_USER ="source";
-    public static  String ICE_PASS = "ayyoub";
+    public static  String ICE_PASS = "123456";
 
     @InjectView(R.id.start)
     Button start;

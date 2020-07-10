@@ -93,8 +93,8 @@ public class Encoder {
 				shout = null;
 				try {
 					shout = new ShoutOutputStream();
-					shout.init("192.168.137.1", 8000, "/ayyoub.ogg", "source", "ayyoub");
-					Log.d("dddd1","recording");
+					shout.init("192.168.137.1", 8000, "/abdo.ogg", "source", "123456");
+					Log.d("test","recording");
 				} catch (Exception e) { //FileNotFoundException
 					if (mHandler != null) {
 						mHandler.sendEmptyMessage(MSG_ERROR_STREAM_INIT);
